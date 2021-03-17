@@ -1,4 +1,43 @@
-$btn : blue;
+@import 'colors';
+@import 'fontiran';
+
+$center : center;
 body {
-    background: $btn;
+    font-family: IRANSans !important;
+    font-weight: 300;
+    direction: rtl;
+    background: $mainBackgroundColor;
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+    font-family: IRANSans !important;
+}
+.justify-center {
+    justify-content: $center;
+}
+
+
+header {
+    .top-nav {
+        padding: 30px 0;
+    }
+
+    .top-nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top-nav ul>li {}
+
+    .top-nav ul>li>a {
+        color: $white;
+    }
 }

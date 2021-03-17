@@ -59,37 +59,3 @@ This set of fonts are used in this project under the license: (.....)
   src: url("../fonts/IRANSans/eot/IRANSansWeb.eot");
   src: url("../fonts/IRANSans/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/IRANSans/woff2/IRANSansWeb.woff2") format("woff2"), url("../fonts/IRANSans/woff/IRANSansWeb.woff") format("woff"), url("../fonts/IRANSans/ttf/IRANSansWeb.ttf") format("truetype");
 }
-body {
-  font-family: IRANSans !important;
-  font-weight: 300;
-  direction: rtl;
-  background: #4F80FF;
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input,
-textarea {
-  font-family: IRANSans !important;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-header .top-nav {
-  padding: 30px 0;
-}
-header .top-nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header .top-nav ul > li > a {
-  color: #fff;
-}
